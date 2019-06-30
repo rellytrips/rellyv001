@@ -8,6 +8,7 @@ export default class Navbar extends Component {
       Auth.signOut();
       this.props.auth.setAuthStatus(false);
       this.props.auth.setUser(null);
+      console.log("logout clicked");
     } catch (error) {
       console.log(error.message);
     }
@@ -58,7 +59,7 @@ export default class Navbar extends Component {
                 {this.props.auth.isAuthenticated && (
                   <a
                     href="/"
-                    onClick={Navbar.handleLogOut}
+                    onClick={this.handleLogOut}
                     className="button is-light"
                   >
                     Log out
