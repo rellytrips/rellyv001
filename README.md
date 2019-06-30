@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> origin/master
 ## Hexal Energy app
 
 This is a starter ReactJS UI for my 'Create a Serverless App' tutorial series.
@@ -72,3 +76,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<<<<<<< HEAD
+=======
+=======
+# rellyv001
+>>>>>>> 468bd708dbcbf4d34b067c4bd5152c462b77f488
+>>>>>>> origin/master
